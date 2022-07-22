@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{929C63FC-7ED5-4D11-8F01-81F3BCB17710}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WF</RootNamespace>
+    <AssemblyName>WF</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1Report.2, Version=2.0.20171.248, Culture=neutral, PublicKeyToken=594a0605db190bb9, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.2, Version=2.0.20171.248, Culture=neutral, PublicKeyToken=944ae1ea0e47ca04" />
+    <Reference Include="C1.Win.C1Command.2, Version=2.0.20171.248, Culture=neutral, PublicKeyToken=e808566f358766d8" />
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20171.248, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Estoque\BuscaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\BuscaProduto.Designer.cs">
+      <DependentUpon>BuscaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\BuscaRequisicoe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\BuscaRequisicoe.Designer.cs">
+      <DependentUpon>BuscaRequisicoe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\ConfiguraCbo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\ConfiguraCbo.Designer.cs">
+      <DependentUpon>ConfiguraCbo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\ConfiguraEtiqueta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\ConfiguraEtiqueta.Designer.cs">
+      <DependentUpon>ConfiguraEtiqueta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\ConfiguraGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\ConfiguraGridView.Designer.cs">
+      <DependentUpon>ConfiguraGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\ConfiguraRelatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\ConfiguraRelatorio.Designer.cs">
+      <DependentUpon>ConfiguraRelatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\EstoquePrevisto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\EstoquePrevisto.Designer.cs">
+      <DependentUpon>EstoquePrevisto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\EstoqueVinculado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\EstoqueVinculado.Designer.cs">
+      <DependentUpon>EstoqueVinculado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\Etiqueta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\Etiqueta.Designer.cs">
+      <DependentUpon>Etiqueta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\ExibeProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\ExibeProduto.Designer.cs">
+      <DependentUpon>ExibeProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\FornecedoresMultiplos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\FornecedoresMultiplos.Designer.cs">
+      <DependentUpon>FornecedoresMultiplos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\Impostos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\Impostos.Designer.cs">
+      <DependentUpon>Impostos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\Medidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\Medidas.Designer.cs">
+      <DependentUpon>Medidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\Produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\Produto.Designer.cs">
+      <DependentUpon>Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\Referencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\Referencias.Designer.cs">
+      <DependentUpon>Referencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\Relatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\Relatorio.Designer.cs">
+      <DependentUpon>Relatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\Requisicoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\Requisicoes.Designer.cs">
+      <DependentUpon>Requisicoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Estoque\Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Estoque\Servico.Designer.cs">
+      <DependentUpon>Servico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\icones\login\background.png" />
+    <Content Include="Resources\icones\login\facebook.png" />
+    <Content Include="Resources\icones\login\instagram.png" />
+    <Content Include="Resources\icones\login\padlock.png" />
+    <Content Include="Resources\icones\login\user.png" />
+    <Content Include="Resources\icones\login\logo.png" />
+    <Content Include="Resources\icones\principal\compras.png" />
+    <Content Include="Resources\icones\principal\nota-fiscal.png" />
+    <Content Include="Resources\icones\principal\pdv.png" />
+    <Content Include="Resources\icones\principal\vendas.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
