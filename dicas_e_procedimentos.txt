@@ -1,0 +1,120 @@
+======================================================================================================================================================================================================================================
+08-06-2022
+==================================
+==Criando Windows Services em C#==
+==================================
+-Abrir cmd em modo de administrador
+
+-Executar comando = cd C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+
+-Abrir prompt de comando de desenvolvedor do Visual Studio 2022  em modo de administrador
+
+-Executar comando =  InstallUtil.exe C: \ Users \ Faisal-Pathan \ source \ repos \ MyFirstService \ MyFirstService \ bin \ Debug \ MyFirstService.exe (path do .exe gerado ao compilar solução)
+
+-https://www.c-sharpcorner.com/article/create-windows-services-in-c-sharp/
+
+-https://www.youtube.com/watch?v=jKLyLGczvpQ
+===============================
+==Deletando Windows Services ==
+===============================
+-Abrir cmd em modo de administrador
+
+-Executar comando = sc delete "nome do serviço"
+
+-tasklist | more
+
+-taskkill /F /PID pid_number
+
+-https://winaero.com/kill-process-windows-10/
+====================
+==Introducing Nini==
+====================
+-Nini is an uncommonly powerful .NET configuration library designed to help build highly configurable applications quickly. Nini provides a solution that attempts to eliminate the above problems. 
+
+-It provides a large feature set that gives you functionality that you will use in every phase of your project, from concept to mature product.  
+
+-This is accomplished through a simple, yet flexible, API that provides an abstraction over the underlying configuration sources.  
+
+-It solves all of the problems that I described above.  We’ll see how this is done in the examples below. 
+======================================================
+==Visual Studio 2022 cannot find Web Service (ASMX )==
+======================================================
+-If you can’t find the ASP.NET Web Application(.NET Framework) project template in VS2022, 
+
+-please close all instances of Visual Studio and open your VS installer > Modify > install “.NET Framework project and item templates” in Individual components.
+==================================================
+==How to do web scraping with html agility pack ==
+==================================================
+-https://html-agility-pack.net/
+=========================================
+==How to do web scraping with selenium ==
+=========================================
+-https://testguild.com/selenium-webdriver-fix-for-3-common-ie-errors/
+
+-https://learn-automation.com/challenges-with-ie-browser-in-selenium-webdriver/
+
+-https://www.selenium.dev/selenium/docs/api/dotnet/html/T_OpenQA_Selenium_IE_InternetExplorerOptions.htm
+
+-https://www.youtube.com/watch?v=b3JtXJRghRU
+
+-https://www.selenium.dev/
+==================================================================
+==How to Find & Write Text, Contains, OR, AND. XPath in Selenium==
+==================================================================
+-https://www.guru99.com/xpath-selenium.html
+======================================================
+==How to Identify and Kill Any Process in Windows 10==
+======================================================
+-https://winbuzzer.com/2020/08/28/how-to-identify-and-kill-any-process-in-windows-10-xcxwbt/
+======================================
+==How to Make a Telegram Bot With C#==
+======================================
+-https://telegrambots.github.io/book/index.html
+
+-https://www.youtube.com/watch?v=YcEyvUf22AQ
+
+-https://www.youtube.com/watch?v=7oOoL8sBLj0&t=478s
+
+-https://www.youtube.com/watch?v=6Z-8a5mVPKI
+
+-https://apps.timwhitlock.info/emoji/tables/unicode
+
+-https://erikthiago.medium.com/telegram-bot-integrado-com-asp-net-core-d607f747ffce
+
+-5410748180= chenrique
+
+-https://www.youtube.com/watch?v=19173xE7VnE
+==================================================
+==How to verify the last controls + C on windows==
+==================================================
+-windows + v
+=============================
+==Padrão de Nomenclatura C#==
+=============================
+Classes e Métodos: PascalCase.
+Parâmetros e variáveis: camelCase
+Interfaces: devem iniciar com I, como IProductRepository.
+Constantes: UPPER_CASE 
+=======================
+==comandos C# like \n==
+=======================
+Sequência Escape 	Nome do Caractere
+		\' 				Single quote
+		\" 				Double quote
+		\\ 				Backslash
+		\0 				Null
+		\a 				Alert
+		\b 				Backspace
+		\f 				Form feed
+		\n 				New line
+		\r 				Carriage return
+		\t 				Horizontal tab
+		\U 				Unicode escape sequence for surrogate pairs.
+		\u 				Unicode escape sequence
+		\v 				Vertical tab
+		\x 				Unicode escape sequence similar to "\u" except with variable length
+=======================
+==Editores de Imagens==
+=======================
+-https://pixlr.com/br/e/
+-https://express.adobe.com/pt-BR/sp/design/post/new?workflow=blank&fallbackThresh=default&trigger=TemplatesCreateFromScratch&customSize=2550%3A3300&collection=%2Fcontent%2Fassets%2Fpublish%2FTemplates%2FFlyers

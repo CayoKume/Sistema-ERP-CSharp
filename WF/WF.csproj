@@ -211,9 +211,21 @@
     <Content Include="Resources\icones\login\user.png" />
     <Content Include="Resources\icones\login\logo.png" />
     <Content Include="Resources\icones\principal\compras.png" />
+    <Content Include="Resources\icones\principal\ecommerce.png" />
+    <Content Include="Resources\icones\principal\email.png" />
+    <Content Include="Resources\icones\principal\estoque.png" />
+    <Content Include="Resources\icones\principal\financeiro.png" />
+    <Content Include="Resources\icones\principal\fornecedor.png" />
+    <Content Include="Resources\icones\principal\importação.png" />
+    <Content Include="Resources\icones\principal\messages.png" />
     <Content Include="Resources\icones\principal\nota-fiscal.png" />
     <Content Include="Resources\icones\principal\pdv.png" />
+    <Content Include="Resources\icones\principal\produção.png" />
+    <Content Include="Resources\icones\principal\sac.png" />
+    <Content Include="Resources\icones\principal\search.png" />
+    <Content Include="Resources\icones\principal\settings.png" />
     <Content Include="Resources\icones\principal\vendas.png" />
+    <Content Include="Resources\icones\principal\whatsapp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

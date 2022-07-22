@@ -13,6 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{9E3829A0-CC12-4E9C-B913-F4C0A4A967D5}"
 	ProjectSection(SolutionItems) = preProject
+		dicas_e_procedimentos.txt = dicas_e_procedimentos.txt
 		Modulos.txt = Modulos.txt
 	EndProjectSection
 EndProject
