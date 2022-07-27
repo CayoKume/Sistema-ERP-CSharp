@@ -16,5 +16,10 @@ namespace WF.Forms.Produto
         {
             InitializeComponent();
         }
+
+        private void lboValores_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

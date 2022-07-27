@@ -135,9 +135,9 @@
             this.maskedTextBox1.BackColor = System.Drawing.SystemColors.Control;
             this.maskedTextBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maskedTextBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.maskedTextBox1.Location = new System.Drawing.Point(399, 100);
+            this.maskedTextBox1.Location = new System.Drawing.Point(429, 100);
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(223, 23);
+            this.maskedTextBox1.Size = new System.Drawing.Size(193, 23);
             this.maskedTextBox1.TabIndex = 2;
             this.maskedTextBox1.Text = "User or E-mail";
             this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -147,9 +147,9 @@
             this.maskedTextBox2.BackColor = System.Drawing.SystemColors.Control;
             this.maskedTextBox2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maskedTextBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.maskedTextBox2.Location = new System.Drawing.Point(399, 152);
+            this.maskedTextBox2.Location = new System.Drawing.Point(429, 151);
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(223, 23);
+            this.maskedTextBox2.Size = new System.Drawing.Size(193, 23);
             this.maskedTextBox2.TabIndex = 2;
             this.maskedTextBox2.Text = "Password";
             this.maskedTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -218,7 +218,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(399, 100);
+            this.pictureBox1.Location = new System.Drawing.Point(402, 100);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(22, 22);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -228,7 +228,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(399, 152);
+            this.pictureBox2.Location = new System.Drawing.Point(402, 152);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(22, 22);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
