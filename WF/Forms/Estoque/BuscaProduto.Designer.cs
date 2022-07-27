@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlPrincipal = new System.Windows.Forms.Panel();
             this.BtnLimpar = new System.Windows.Forms.Button();
             this.rdoProdutoAcabado = new System.Windows.Forms.RadioButton();
@@ -104,7 +104,7 @@
             // rdoProdutoAcabado
             // 
             this.rdoProdutoAcabado.AutoSize = true;
-            this.rdoProdutoAcabado.Location = new System.Drawing.Point(364, 13);
+            this.rdoProdutoAcabado.Location = new System.Drawing.Point(368, 20);
             this.rdoProdutoAcabado.Name = "rdoProdutoAcabado";
             this.rdoProdutoAcabado.Size = new System.Drawing.Size(144, 21);
             this.rdoProdutoAcabado.TabIndex = 44;
@@ -115,7 +115,7 @@
             // rdoMateriaPrima
             // 
             this.rdoMateriaPrima.AutoSize = true;
-            this.rdoMateriaPrima.Location = new System.Drawing.Point(242, 14);
+            this.rdoMateriaPrima.Location = new System.Drawing.Point(246, 20);
             this.rdoMateriaPrima.Name = "rdoMateriaPrima";
             this.rdoMateriaPrima.Size = new System.Drawing.Size(116, 21);
             this.rdoMateriaPrima.TabIndex = 43;
@@ -126,7 +126,7 @@
             // rdoServicos
             // 
             this.rdoServicos.AutoSize = true;
-            this.rdoServicos.Location = new System.Drawing.Point(159, 14);
+            this.rdoServicos.Location = new System.Drawing.Point(163, 20);
             this.rdoServicos.Name = "rdoServicos";
             this.rdoServicos.Size = new System.Drawing.Size(77, 21);
             this.rdoServicos.TabIndex = 42;
@@ -137,7 +137,7 @@
             // rdoProdutoRevenda
             // 
             this.rdoProdutoRevenda.AutoSize = true;
-            this.rdoProdutoRevenda.Location = new System.Drawing.Point(13, 14);
+            this.rdoProdutoRevenda.Location = new System.Drawing.Point(17, 20);
             this.rdoProdutoRevenda.Name = "rdoProdutoRevenda";
             this.rdoProdutoRevenda.Size = new System.Drawing.Size(140, 21);
             this.rdoProdutoRevenda.TabIndex = 41;
@@ -178,26 +178,26 @@
             // 
             this.dgvBuscaProdutos.AllowUserToAddRows = false;
             this.dgvBuscaProdutos.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvBuscaProdutos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvBuscaProdutos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvBuscaProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvBuscaProdutos.Location = new System.Drawing.Point(12, 210);
             this.dgvBuscaProdutos.Name = "dgvBuscaProdutos";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dgvBuscaProdutos.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dgvBuscaProdutos.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvBuscaProdutos.Size = new System.Drawing.Size(649, 260);
             this.dgvBuscaProdutos.TabIndex = 37;
             // 
             // lboFoto
             // 
             this.lboFoto.AutoSize = true;
-            this.lboFoto.Location = new System.Drawing.Point(466, 42);
+            this.lboFoto.Location = new System.Drawing.Point(462, 59);
             this.lboFoto.Name = "lboFoto";
             this.lboFoto.Size = new System.Drawing.Size(37, 17);
             this.lboFoto.TabIndex = 35;
@@ -208,9 +208,9 @@
             this.pctboxProduto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pctboxProduto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pctboxProduto.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pctboxProduto.Location = new System.Drawing.Point(461, 48);
+            this.pctboxProduto.Location = new System.Drawing.Point(457, 66);
             this.pctboxProduto.Name = "pctboxProduto";
-            this.pctboxProduto.Size = new System.Drawing.Size(200, 150);
+            this.pctboxProduto.Size = new System.Drawing.Size(180, 130);
             this.pctboxProduto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pctboxProduto.TabIndex = 36;
             this.pctboxProduto.TabStop = false;
@@ -220,7 +220,7 @@
             // 
             this.cboStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboStatus.FormattingEnabled = true;
-            this.cboStatus.Location = new System.Drawing.Point(306, 70);
+            this.cboStatus.Location = new System.Drawing.Point(306, 88);
             this.cboStatus.Name = "cboStatus";
             this.cboStatus.Size = new System.Drawing.Size(112, 25);
             this.cboStatus.TabIndex = 12;
@@ -229,7 +229,7 @@
             // 
             this.cboFornecedores.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboFornecedores.FormattingEnabled = true;
-            this.cboFornecedores.Location = new System.Drawing.Point(306, 136);
+            this.cboFornecedores.Location = new System.Drawing.Point(306, 154);
             this.cboFornecedores.Name = "cboFornecedores";
             this.cboFornecedores.Size = new System.Drawing.Size(112, 25);
             this.cboFornecedores.TabIndex = 12;
@@ -238,7 +238,7 @@
             // 
             this.cboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCategoria.FormattingEnabled = true;
-            this.cboCategoria.Location = new System.Drawing.Point(155, 136);
+            this.cboCategoria.Location = new System.Drawing.Point(155, 154);
             this.cboCategoria.Name = "cboCategoria";
             this.cboCategoria.Size = new System.Drawing.Size(119, 25);
             this.cboCategoria.TabIndex = 11;
@@ -247,7 +247,7 @@
             // 
             this.cboTipoProduto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTipoProduto.FormattingEnabled = true;
-            this.cboTipoProduto.Location = new System.Drawing.Point(15, 136);
+            this.cboTipoProduto.Location = new System.Drawing.Point(15, 154);
             this.cboTipoProduto.Name = "cboTipoProduto";
             this.cboTipoProduto.Size = new System.Drawing.Size(118, 25);
             this.cboTipoProduto.TabIndex = 10;
@@ -255,7 +255,7 @@
             // txtDescricao
             // 
             this.txtDescricao.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtDescricao.Location = new System.Drawing.Point(15, 72);
+            this.txtDescricao.Location = new System.Drawing.Point(15, 90);
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(150, 23);
             this.txtDescricao.TabIndex = 0;
@@ -263,7 +263,7 @@
             // txtReferencia
             // 
             this.txtReferencia.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtReferencia.Location = new System.Drawing.Point(188, 72);
+            this.txtReferencia.Location = new System.Drawing.Point(188, 90);
             this.txtReferencia.Name = "txtReferencia";
             this.txtReferencia.Size = new System.Drawing.Size(100, 23);
             this.txtReferencia.TabIndex = 1;
@@ -271,7 +271,7 @@
             // lblCategoriaProduto
             // 
             this.lblCategoriaProduto.AutoSize = true;
-            this.lblCategoriaProduto.Location = new System.Drawing.Point(152, 116);
+            this.lblCategoriaProduto.Location = new System.Drawing.Point(152, 134);
             this.lblCategoriaProduto.Name = "lblCategoriaProduto";
             this.lblCategoriaProduto.Size = new System.Drawing.Size(131, 17);
             this.lblCategoriaProduto.TabIndex = 5;
@@ -280,7 +280,7 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(303, 54);
+            this.lblStatus.Location = new System.Drawing.Point(303, 72);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(46, 17);
             this.lblStatus.TabIndex = 6;
@@ -289,7 +289,7 @@
             // lblFornecedor
             // 
             this.lblFornecedor.AutoSize = true;
-            this.lblFornecedor.Location = new System.Drawing.Point(303, 116);
+            this.lblFornecedor.Location = new System.Drawing.Point(303, 134);
             this.lblFornecedor.Name = "lblFornecedor";
             this.lblFornecedor.Size = new System.Drawing.Size(81, 17);
             this.lblFornecedor.TabIndex = 6;
@@ -298,7 +298,7 @@
             // lblTipoProduto
             // 
             this.lblTipoProduto.AutoSize = true;
-            this.lblTipoProduto.Location = new System.Drawing.Point(12, 116);
+            this.lblTipoProduto.Location = new System.Drawing.Point(12, 134);
             this.lblTipoProduto.Name = "lblTipoProduto";
             this.lblTipoProduto.Size = new System.Drawing.Size(90, 17);
             this.lblTipoProduto.TabIndex = 4;
@@ -307,7 +307,7 @@
             // lblDescricao
             // 
             this.lblDescricao.AutoSize = true;
-            this.lblDescricao.Location = new System.Drawing.Point(12, 56);
+            this.lblDescricao.Location = new System.Drawing.Point(12, 74);
             this.lblDescricao.Name = "lblDescricao";
             this.lblDescricao.Size = new System.Drawing.Size(72, 17);
             this.lblDescricao.TabIndex = 3;
@@ -316,7 +316,7 @@
             // lblReferencia
             // 
             this.lblReferencia.AutoSize = true;
-            this.lblReferencia.Location = new System.Drawing.Point(185, 56);
+            this.lblReferencia.Location = new System.Drawing.Point(185, 74);
             this.lblReferencia.Name = "lblReferencia";
             this.lblReferencia.Size = new System.Drawing.Size(76, 17);
             this.lblReferencia.TabIndex = 1;

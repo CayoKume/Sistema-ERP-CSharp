@@ -187,6 +187,27 @@
     <EmbeddedResource Include="Forms\Estoque\BuscaRequisicoe.resx">
       <DependentUpon>BuscaRequisicoe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\ConfiguraCbo.resx">
+      <DependentUpon>ConfiguraCbo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\ConfiguraEtiqueta.resx">
+      <DependentUpon>ConfiguraEtiqueta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\ConfiguraGridView.resx">
+      <DependentUpon>ConfiguraGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\ConfiguraRelatorio.resx">
+      <DependentUpon>ConfiguraRelatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\EstoquePrevisto.resx">
+      <DependentUpon>EstoquePrevisto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\EstoqueVinculado.resx">
+      <DependentUpon>EstoqueVinculado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\Etiqueta.resx">
+      <DependentUpon>Etiqueta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Estoque\Produto.resx">
       <DependentUpon>Produto.cs</DependentUpon>
     </EmbeddedResource>
@@ -222,6 +243,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Resources\icones\botoes\exit.png" />
     <Content Include="Resources\icones\login\background.png" />
     <Content Include="Resources\icones\login\facebook.png" />
     <Content Include="Resources\icones\login\instagram.png" />
