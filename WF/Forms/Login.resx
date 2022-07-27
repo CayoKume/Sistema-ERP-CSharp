@@ -27028,12 +27028,29 @@
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        rwAAAK8BK7AVuQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEISURBVEhL1ZS9
+        rgAAAK4B+ff3XQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEISURBVEhL1ZS9
         DgFBFIW3oqLQovICqHkIEU9BvB2VHo2fTs0boPVzzmZuMln3MjOi8CVfMjtz7t2xMZMFUIZTuIJXJ8cT
         WIJfUYc7+DDcQmaS4M6l+REOYcU5gAfItQ1M+iX8LNK8xokCnDtBZsaciGUNWcydW4wgM8v8KZILZDE/
         iUUVMnPOnyJhIf1EaO6F/3xBF+7hHUphqKzh37oDTd4dqlB5+ExuUCuKkT1MtIIUTbSwOIMN59zNWZpo
         YZGNhSbUMqKJFhZbUOBYy4gmWlhcQIFjLSOaaGFfQVvzNdHCvoK25muihX17sF+Y0zTRwima/Pwk//wu
         4m3Kl6Tcptw5m7ehI8ue8t4hpOgetPcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAALAAAACwARRqq2kAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
+        AAACTUlEQVRIS62VPU/bYBDHn3aC78DAhA3Bic0CQUKiMFeNIsQA4kugVEUqrAgxg9QKVd070NIObRxL
+        BqPylgGVBJgCE5QJ54UuidTr3VObOPZj0zSc9FMU393/7/jOeZg3joaG0oeaZiAVBNqEeoxDVU05cs0A
+        xp5i8p2nuFM2UPOJI88YXnjlK+iYA1XNcPG9ZLIbL/zyF3TKgabdmePjXexI0yZFBY9CPD7BLEVZEiaR
+        fDIJ+eFhYY6gXH5kRJgjdhVlkW3H4+uiZGF6GhrVKtRvb6E4OxvIF+fmoGHb0KhU4GRqKpAnTEVZY9uK
+        8laUvFhdBTfIyGvCxWs1JwtQWl5u6XUh7VADa3QUyufnjkTTxC9ePjsDCx+lSCPSALcAcj6T3/U6xw0S
+        11GcakUakQbEvqqCjkO0CwVHshlkTDeA+y7sJR40IMjkeGHBkW3GcSYTKU78k0FxZoZvij9oDjQPUY/L
+        gwb+gVZLJahdXjrfgtvlJ9LgJJ1uEbdPTyGL89AF2/UjlQr0E5EG3veAxPm24DMn/NtVWlkJ9BORBtbY
+        GNzs7MCVrt+LuznX5Now4Kdpwi7Wentd/hqE/FXQ9nyLxTiibaFr2cHB0DxhJhJrLBuLLYqSjwHewGv2
+        pa9vci/kDjrhO2puSdIz9qGnpxt/5l3Y6/5foPjXgYHa+97eLn6qbUrSS/4sRcVtQvMgrU1ZnufiFHRA
+        o8nG5/5+MHBwOHiwEom2oJ4c9m7JMom/aTn03UCTFx9lOYeUEWgLSbLxU/8ky88dOQzG/gAGHAiA2Nip
+        qwAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>

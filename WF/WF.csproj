@@ -208,6 +208,15 @@
     <EmbeddedResource Include="Forms\Estoque\Etiqueta.resx">
       <DependentUpon>Etiqueta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\ExibeProduto.resx">
+      <DependentUpon>ExibeProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\FornecedoresMultiplos.resx">
+      <DependentUpon>FornecedoresMultiplos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\Impostos.resx">
+      <DependentUpon>Impostos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Estoque\Produto.resx">
       <DependentUpon>Produto.cs</DependentUpon>
     </EmbeddedResource>
