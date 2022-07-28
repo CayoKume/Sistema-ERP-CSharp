@@ -217,8 +217,23 @@
     <EmbeddedResource Include="Forms\Estoque\Impostos.resx">
       <DependentUpon>Impostos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\Medidas.resx">
+      <DependentUpon>Medidas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Estoque\Produto.resx">
       <DependentUpon>Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\Referencias.resx">
+      <DependentUpon>Referencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\Relatorio.resx">
+      <DependentUpon>Relatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\Requisicoes.resx">
+      <DependentUpon>Requisicoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estoque\Servico.resx">
+      <DependentUpon>Servico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
