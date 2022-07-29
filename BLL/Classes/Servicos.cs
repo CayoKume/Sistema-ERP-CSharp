@@ -1,4 +1,4 @@
-﻿namespace Classes
+﻿namespace BLL
 {
     internal class Servicos : Produto
     {

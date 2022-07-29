@@ -1,7 +1,7 @@
-﻿namespace Classes
+﻿namespace BLL
 {
     class Cliente : Pessoa
     {
-       
+
     }
 }

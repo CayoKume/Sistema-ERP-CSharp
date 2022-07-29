@@ -1,4 +1,4 @@
-﻿namespace Classes
+﻿namespace BLL
 {
     public class Usuario : Pessoa
     {
